@@ -1,0 +1,83 @@
+/* *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.col-3{
+    padding: 10px;
+    width: calc(100% / 4);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.myDiv{
+    background-color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 2px 70px 0px rgba(104, 115, 160, 0.18);
+ margin: 0 auto;
+ padding: 30px;
+  text-align: center; 
+  position: relative;
+  margin-bottom: 80px;
+  
+}
+.myDiv>.box{
+    position: absolute;
+    color: black;
+    top: 92%;
+    left: 35%;
+   text-transform: uppercase;
+    background-color: #ffffff;
+    width: 35%;
+    height: 30px;
+    font-size: 20px; 
+    letter-spacing: 2px;
+    color: gray;
+    box-shadow: 0px 2px 70px 0px rgba(104, 115, 160, 0.18);
+   
+}
+h1{
+    text-align: center;
+}
+.fa-user{
+border-radius: 50%;
+background-color: rgb(194, 166, 221);
+color: blueviolet;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    height: 40%;
+    width: 10%;
+}
+.myDiv>h2{
+    text-align:center ;
+    margin: 10px 0px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.7em;
+}
+.myDiv>p{
+    font-size: 14px;
+    color: #666;
+}
+
+@media only screen and (max-width: 992px){
+    
+    .col-md-6{
+  
+        width:50%;
+    
+    }
+}
+@media only screen and (max-width: 576px){
+    
+    .col-sm-12{
+  
+        width:100%;
+    
+    }
+} */
