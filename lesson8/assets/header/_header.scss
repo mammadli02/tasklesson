@@ -1,0 +1,52 @@
+header{
+   
+    height: 70px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+   
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+       
+    
+       
+        &__logo{
+          
+            font-size: 25px;
+          
+            transition: .2s;
+            position: relative;
+          
+
+        }
+        &-right {
+display: flex;
+align-items: center;
+justify-content: space-between;
+&__link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+&-item{
+
+
+ 
+    a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+   
+   
+
+ }
+}
+        }
+    }
+}
+}
