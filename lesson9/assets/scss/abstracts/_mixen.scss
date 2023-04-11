@@ -1,0 +1,80 @@
+@mixin linkbuttton($bgc,$color) {
+    padding: 15px 40px;
+gap: 10px;
+
+width: 193px;
+height: 52px;
+color: $color;
+/* primary-color */
+text-decoration: none;
+background: $bgc;
+border-radius: 5px;
+border: 1px solid $headergreen;
+
+}
+#popularcourse{
+    .col-12{
+        display: flex;
+    justify-content: space-between;
+    
+    .parag{
+display: flex;
+
+flex-direction: column;
+justify-content: center;
+        .para{
+       
+            
+        //   margin-top: 100px;
+            .hr{
+                width: 94px;
+height: 7px;
+
+/* danger-color */
+
+background: #E74040;
+
+
+            }
+            h2{
+                font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+/* or 125% */
+
+letter-spacing: 0.2px;
+
+/* text-color */
+
+color: #252B42;
+margin: 35px 0px;
+            }
+            p{
+                font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.2px;
+margin: 35px 0px;
+/* second-text-color */
+
+color: #737373;
+
+            }
+            a{
+                color: $headergreen;
+                font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+text-decoration: none;
+letter-spacing: 0.2px;
+            }
+        }
+    }
+}
+}

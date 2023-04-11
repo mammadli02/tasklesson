@@ -1,0 +1,604 @@
+#popularcourse .col-12 {
+  display: flex;
+  justify-content: space-between;
+}
+#popularcourse .col-12 .parag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#popularcourse .col-12 .parag .para .hr {
+  width: 94px;
+  height: 7px;
+  /* danger-color */
+  background: #E74040;
+}
+#popularcourse .col-12 .parag .para h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  /* or 125% */
+  letter-spacing: 0.2px;
+  /* text-color */
+  color: #252B42;
+  margin: 35px 0px;
+}
+#popularcourse .col-12 .parag .para p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  letter-spacing: 0.2px;
+  margin: 35px 0px;
+  /* second-text-color */
+  color: #737373;
+}
+#popularcourse .col-12 .parag .para a {
+  color: #96BB7C;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  text-decoration: none;
+  letter-spacing: 0.2px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 95%;
+  }
+  .col-lg-1 {
+    width: 8.3333333333%;
+  }
+  .col-lg-2 {
+    width: 16.6666666667%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.3333333333%;
+  }
+  .col-lg-5 {
+    width: 41.6666666667%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.3333333333%;
+  }
+  .col-lg-8 {
+    width: 66.6666666667%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.3333333333%;
+  }
+  .col-lg-11 {
+    width: 91.6666666667%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+  .col-md-1 {
+    width: 8.3333333333%;
+  }
+  .col-md-2 {
+    width: 16.6666666667%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.3333333333%;
+  }
+  .col-md-5 {
+    width: 41.6666666667%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.3333333333%;
+  }
+  .col-md-8 {
+    width: 66.6666666667%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-10 {
+    width: 83.3333333333%;
+  }
+  .col-md-11 {
+    width: 91.6666666667%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  .col-sm-1 {
+    width: 8.3333333333%;
+  }
+  .col-sm-2 {
+    width: 16.6666666667%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.3333333333%;
+  }
+  .col-sm-5 {
+    width: 41.6666666667%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.3333333333%;
+  }
+  .col-sm-8 {
+    width: 66.6666666667%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-10 {
+    width: 83.3333333333%;
+  }
+  .col-sm-11 {
+    width: 91.6666666667%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 95%;
+  }
+  .col-xs-1 {
+    width: 8.3333333333%;
+  }
+  .col-xs-2 {
+    width: 16.6666666667%;
+  }
+  .col-xs-3 {
+    width: 25%;
+  }
+  .col-xs-4 {
+    width: 33.3333333333%;
+  }
+  .col-xs-5 {
+    width: 41.6666666667%;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-7 {
+    width: 58.3333333333%;
+  }
+  .col-xs-8 {
+    width: 66.6666666667%;
+  }
+  .col-xs-9 {
+    width: 75%;
+  }
+  .col-xs-10 {
+    width: 83.3333333333%;
+  }
+  .col-xs-11 {
+    width: 91.6666666667%;
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
+}
+header {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  z-index: 999;
+}
+header nav .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 31px;
+  align-items: center;
+}
+header nav .nav-logo h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+header nav .nav-center {
+  color: #737373;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+header nav .nav-center ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav .nav-center ul li {
+  margin-right: 15px;
+  list-style: none;
+}
+header nav .nav-right {
+  z-index: 999;
+  position: relative;
+}
+header nav .nav-right ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+header nav .nav-right ul li {
+  margin-right: 45px;
+  list-style: none;
+}
+header nav .nav-right ul li a {
+  color: #96BB7C;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  text-align: right;
+  letter-spacing: 0.2px;
+}
+header nav .nav-right ul li .btn {
+  padding: 15px 20px;
+  /* primary-color */
+  background: #96BB7C;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  letter-spacing: 0.2px;
+  /* light-text-color */
+  color: #FFFFFF;
+}
+header nav .nav-right ul li .btn i {
+  color: #FFFFFF;
+}
+
+body {
+  position: relative;
+}
+body .box1 {
+  position: absolute;
+  width: 111.61px;
+  height: 176.96px;
+  left: 0px;
+  top: 0px;
+  border-bottom-right-radius: 50px;
+  /* faded-primary-color */
+  background: #EFF8ED;
+}
+body .box2 {
+  position: absolute;
+  width: 604.15px;
+  height: 700px;
+  right: 0px;
+  top: 0px;
+  /* faded-primary-color */
+  border-bottom-left-radius: 50px;
+  background: #EFF8ED;
+}
+
+main {
+  font-family: "Montserrat", sans-serif;
+}
+main #future {
+  position: relative;
+  z-index: 99;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 200px 0px;
+  font-family: "Montserrat", sans-serif;
+}
+main #future .col-12 h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-decoration: none;
+  letter-spacing: 0.1px;
+  /* primary-color */
+  color: #96BB7C;
+}
+main #future .col-12 h2 {
+  font-style: normal;
+  font-weight: 700;
+  margin: 40px 0px;
+  font-size: 58px;
+  line-height: 80px;
+  /* or 138% */
+  text-align: center;
+  letter-spacing: 0.2px;
+  /* text-color */
+  color: #252B42;
+}
+main #future .col-12 h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  text-align: center;
+  letter-spacing: 0.2px;
+  /* second-text-color */
+  color: #737373;
+  margin-bottom: 40px;
+}
+main #future .col-12 .link1 {
+  padding: 15px 40px;
+  gap: 10px;
+  width: 193px;
+  height: 52px;
+  color: #FFFFFF;
+  /* primary-color */
+  text-decoration: none;
+  background: #96BB7C;
+  border-radius: 5px;
+  border: 1px solid #96BB7C;
+}
+main #future .col-12 .link2 {
+  padding: 15px 40px;
+  gap: 10px;
+  width: 193px;
+  height: 52px;
+  color: #96BB7C;
+  /* primary-color */
+  text-decoration: none;
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: 1px solid #96BB7C;
+}
+main #icons .col-12 {
+  display: flex;
+  justify-content: space-between;
+}
+main #icons .container {
+  width: 80%;
+  margin: 0 auto;
+}
+main #quick {
+  padding: 100px 0px;
+}
+main #quick .container {
+  width: 80%;
+  margin: 0 auto;
+}
+main #quick .row .quick-top {
+  text-align: left;
+}
+main #quick .row .quick-top h6 {
+  /* h6 */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  letter-spacing: 0.2px;
+  /* primary-text-color */
+  color: #96BB7C;
+}
+main #quick .row .quick-top h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.2px;
+  /* text-color */
+  margin: 10px 0px;
+  color: #252B42;
+}
+main #quick .row .quick-top p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  letter-spacing: 0.2px;
+  /* second-text-color */
+  color: #737373;
+}
+
+#card3 {
+  background-color: #96BB7C;
+}
+#card3 .card h5 {
+  color: #FFFFFF;
+}
+#card3 .card p {
+  color: #FFFFFF;
+}
+
+.cards {
+  display: flex;
+}
+.cards .card2 {
+  padding: 30px;
+  background: #FFFFFF;
+  margin-top: 80px;
+  /* accentued-drop-shadow */
+  margin-left: 30px;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  text-align: left;
+  padding: 25px 35px;
+}
+.cards .card2 h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.1px;
+  /* text-color */
+  color: #252B42;
+}
+.cards .card2 .hr {
+  width: 50px;
+  height: 2px;
+  margin: 20px 0px;
+  /* danger-color */
+  background: #E74040;
+}
+.cards .card2 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  letter-spacing: 0.2px;
+  /* second-text-color */
+  color: #737373;
+}
+
+#health {
+  padding: 100px 0px;
+  background-color: #EFF8ED;
+}
+#health .container {
+  width: 80%;
+  margin: 0 auto;
+}
+#health .row .health-top {
+  text-align: left;
+}
+#health .row .health-top h6 {
+  /* h6 */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  letter-spacing: 0.2px;
+  /* primary-text-color */
+  color: #96BB7C;
+}
+#health .row .health-top h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.2px;
+  /* text-color */
+  margin: 10px 0px;
+  color: #252B42;
+}
+#health .row .health-top p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  letter-spacing: 0.2px;
+  /* second-text-color */
+  color: #737373;
+}/*# sourceMappingURL=main.css.map */

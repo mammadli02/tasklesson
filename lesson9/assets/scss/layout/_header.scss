@@ -1,0 +1,124 @@
+header{
+    font-family: $headerfontfamily;
+  position: relative;
+  z-index: 999;
+nav{
+ 
+    .container{
+        
+        display: flex;
+        justify-content: space-between;
+        padding: 31px;
+        align-items: center;
+    }
+    .nav-logo{
+        h3{
+       
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.1px;
+
+color: $headertextcolor;
+    }
+}
+.nav-center{
+   color:$secondtexcolor;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+text-align: center;
+letter-spacing: 0.2px;
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+li{
+    margin-right: 15px;
+    list-style: none;
+}
+}
+}
+.nav-right{
+    z-index: 999;
+    position: relative;
+    ul{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        li{
+            margin-right: 45px;
+            list-style: none;
+
+            a{
+color: $headergreen;
+text-decoration: none;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+text-align: right;
+letter-spacing: 0.2px;
+         }
+            .btn{
+                padding: 15px 20px;
+/* primary-color */
+
+background: $headergreen;
+border-radius: 5px;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+letter-spacing: 0.2px;
+
+/* light-text-color */
+
+color: $mainwhite;
+i{
+    color: $mainwhite;
+}
+            }
+        }
+
+    }
+}
+}
+}
+body{
+    position: relative;
+    .box1{
+        position: absolute;
+width: 111.61px;
+height: 176.96px;
+left: 0px;
+top: 0px;
+border-bottom-right-radius: 50px ;
+
+/* faded-primary-color */
+
+background: $bodygreen;
+    }
+    .box2{
+        position: absolute;
+width: 604.15px;
+height: 700px;
+right: 0px;
+top: 0px;
+
+/* faded-primary-color */
+border-bottom-left-radius: 50px;
+background: $bodygreen;
+    }
+}
